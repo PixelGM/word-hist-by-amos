@@ -1,6 +1,6 @@
 # Word Hist, by Amos
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/PixelGM/word-diff-by-amos#word-hist-by-amos)
 
 Word Hist is a cloud-enabled, Microsoft Word history.
 
