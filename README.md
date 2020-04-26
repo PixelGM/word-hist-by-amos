@@ -8,16 +8,26 @@ Word Hist is a cloud-enabled, Microsoft Word history.
   - Did an oopsie on the file? Just Discard Changes!
   - Word Hist doesn't use your storage to store the changes, we use GitHub cloud to store your changes.
 
-# New Features!
+# 1. Setup
 
-  - Import a HTML file and watch it magically convert to Markdown
-  - Drag and drop images (requires your Dropbox account be linked)
+1. Download Github Desktop
+2. Sign up and Sign in on GitHub
+3. Download this repo
+4. Folk the repo
+5. Install **Pandoc** in Installer
+6. Go to "Files to put"
+7. Set hidden items off in File Explorer
+8. Copy config to word-diff-by-amos\.git
+9. Copy post-commit-git-diff-docx.sh and pre-commit-git-diff-docx.sh to word-diff-by-amos\ .git\hooks
 
-
-You can also:
-  - Import and save files from GitHub, Dropbox, Google Drive and One Drive
-  - Drag and drop markdown and HTML files into Dillinger
-  - Export documents as Markdown, HTML and PDF
+# 2. How to use
+1. Open test.docx
+2. Edit in word whatever you want
+3. Go to Github Desktop, see if it changes.
+4. Commit to save the changes
+5. You can also *"Revert Changes"* in History
+6. Press *crtl + p* or click on *"Publish to repository"* to save the changes to cloud.
+ 
 
 Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As [John Gruber] writes on the [Markdown site][df1]
 
